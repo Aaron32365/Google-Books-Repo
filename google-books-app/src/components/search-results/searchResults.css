@@ -1,0 +1,32 @@
+.results{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #BFC8CF;
+    border-radius: 4px;
+    margin-bottom: 18px;
+}
+
+.bookContainer{
+    background-color: #EAEFF3;
+    border-radius: 4px;
+    margin: 6px;
+}
+
+.bookTitle{
+    font-size: 1.23em;
+    font-family: "Francois One";
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+img{
+    width: 134px;
+    height: 196px;
+    margin: 6px;
+    margin-top: 22px;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    margin-bottom: 18px;
+}

@@ -1,0 +1,29 @@
+#nav{
+    background-color: #5DADE2;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: black;
+    font-size: 1.5em;
+    padding: 22px;
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.35em;
+}
+
+#Header-main-text{
+    margin-left: 20px;
+}
+
+body{
+    background-color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

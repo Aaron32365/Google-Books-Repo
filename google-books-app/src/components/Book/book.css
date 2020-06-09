@@ -1,0 +1,88 @@
+.bookHeader{
+    font-size: 1.2em;
+}
+.book{
+    margin-left: 0px;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 0px;   
+}
+.viewLink{
+    margin-left: 28px;
+    padding-top: 4px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 4px;
+    font-family: 'Fredoka One', cursive;
+    background-color: #FF6A6A;
+    font-size: 1.18em;
+    letter-spacing: .1em;
+    border-style: outset;
+    border-width: 2px;
+    border-color: #FF6A6A;
+}
+
+.viewLink:hover{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-family: 'Fredoka One', cursive;
+    background-color: #FF6A6A;
+}
+
+.Btn{
+    padding-top: 4px;
+    padding-top: 4px;
+    margin-top: 20px;
+    border-style: outset;
+    border-width: 2px;
+    border-color: #FF6A6A;
+    background-color: #FF6A6A;
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    font-size: .9em;
+    letter-spacing: .1em;
+}
+
+.btnContainer{
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: black;
+}
+
+.bookContainer{
+    border-style: outset;
+    border-width: 2px;
+    border-color: black;
+    margin-top: 18px;
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+}
+
+.bookDesc{
+    font-family: "Francois One";
+    font-weight: lighter;
+    margin-top: 22px;
+    margin-bottom: 14px;
+    font-size: .96em;
+    max-height: 300px;
+    overflow: scroll;
+}
+
+.bookTitle{
+    margin-top: 18px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.bookAuthor{
+    padding: 0px !important;
+    font-size: .8em;
+}
+
+ul{
+    padding: 0px !important;
+    list-style-type: none;
+    padding-top: 8px !important;
+}

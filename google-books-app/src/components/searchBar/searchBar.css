@@ -1,0 +1,40 @@
+.search-container{
+    margin-top: 26px;
+    margin-left: 10px;
+    padding: 4px;
+    background-color: white;
+    border-style: solid;
+    border-width: 3px;
+    border-color: whitesmoke;
+    border-radius: 4px;
+    margin-bottom: 40px;
+}
+
+#search-header{
+    padding-bottom: 4px;
+    font-size: 1.25em;
+    font-family: 'Francois One', sans-serif;
+}
+#search-sub-header{
+    font-weight: bold;
+}
+
+input{
+    border-width: 3px;
+    margin-top: 6px;
+    margin-bottom: 24px;
+}
+
+#searchContainer{
+    margin-bottom: 144px;
+}
+
+#submitBtn{
+    border-color: #FF6A6A;
+    background-color: #FF6A6A;
+    color: #FFFFFF;
+    font-family: 'Fredoka One', cursive;
+    margin-bottom: 12px;
+    font-size: 1.2em;
+    
+}

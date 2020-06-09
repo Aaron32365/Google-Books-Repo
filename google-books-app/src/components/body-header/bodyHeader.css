@@ -1,0 +1,23 @@
+.containers{
+    margin-top: 32px;
+}
+
+.headers{
+    font-family: 'Fredoka One', cursive;
+    font-size: 2.2em;
+    padding-bottom: 8px;
+    color: #409BE2;
+}
+
+.sub-headers-1{
+    font-family: 'Fredoka One', cursive;
+    font-size: 1em;
+    padding-bottom: 28px;
+    color: #409BE2;
+}
+
+#header{
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 3px;
+}
