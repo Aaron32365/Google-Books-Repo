@@ -29,6 +29,10 @@ input{
     margin-bottom: 144px;
 }
 
+#resultContainer{
+    padding-bottom: 210px;
+}
+
 #submitBtn{
     border-color: #FF6A6A;
     background-color: #FF6A6A;

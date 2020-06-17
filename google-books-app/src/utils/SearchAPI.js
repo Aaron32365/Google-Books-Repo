@@ -1,6 +1,5 @@
 
 async function API(book){
-    const queryString = ``
     const response = await fetch(`https://www.googleapis.com/books/v1/volumes?q=${book}`)
     .then(response => response.json())
     .then(data => {

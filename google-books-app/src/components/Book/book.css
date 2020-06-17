@@ -29,6 +29,13 @@
     background-color: #FF6A6A;
 }
 
+#msg1{
+    margin-top: 8px;
+    font-size: .84em;
+    font-weight: bold;
+    color: green;
+}
+
 .Btn{
     padding-top: 4px;
     padding-top: 4px;

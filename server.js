@@ -2,7 +2,6 @@ const express = require("express");
 const app = express();
 const path = require("path");
 const mongoose = require("mongoose");
-// const db = require("./model");
 const routes = require("./routes/api-routes.js")
 
 // connect mongoose db (options to remove depracation warnings)
