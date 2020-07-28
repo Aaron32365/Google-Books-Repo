@@ -5,7 +5,7 @@ function SearchBar (props){
     
     return(
         <div className="row justify-content-center body">
-            <div className="col-10 search-container">
+            <div className="col-10 box search-container">
                 <div className="col-12" id="search-header">
                      Book Search
                 </div>
@@ -13,8 +13,10 @@ function SearchBar (props){
                     Book
                 </div>
                 <form className="col-12" onSubmit={props.onsubmit}>
-                    <input className="col" type="text" onChange={props.handleInputChange}/>
-                    <button className="col-12" type="submit" id="submitBtn">Search</button>
+                    <input className="col-12" type="text" onChange={props.handleInputChange}/>
+                    <span className="row justify-content-center">
+                    <button className="col-4" type="submit" id="submitBtn">Search</button>
+                    </span>
                 </form>
                 
             </div>

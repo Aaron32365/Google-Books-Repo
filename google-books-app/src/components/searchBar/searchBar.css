@@ -1,21 +1,21 @@
 .search-container{
-    margin-top: 26px;
-    margin-left: 10px;
     padding: 4px;
     background-color: white;
     border-style: solid;
-    border-width: 3px;
-    border-color: whitesmoke;
+    border-width: 2px;
+    border-color: black;
     border-radius: 4px;
-    margin-bottom: 40px;
 }
 
 #search-header{
+    margin-top: 12px;
+    text-align: center;
     padding-bottom: 4px;
-    font-size: 1.25em;
+    font-size: 1.3em;
     font-family: 'Francois One', sans-serif;
 }
 #search-sub-header{
+    margin: 8px;
     font-weight: bold;
 }
 
@@ -26,7 +26,7 @@ input{
 }
 
 #searchContainer{
-    margin-bottom: 144px;
+    margin-bottom: 80px;
 }
 
 #resultContainer{
@@ -38,7 +38,44 @@ input{
     background-color: #FF6A6A;
     color: #FFFFFF;
     font-family: 'Fredoka One', cursive;
-    margin-bottom: 12px;
+    margin-bottom: 28px;
+    margin-top: 4px;
     font-size: 1.2em;
     
 }
+
+.box {
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 4.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 10px 80px rgba(0, 0, 0, 0.12)
+;
+  min-height: 200px;
+  width: 50vw;
+  margin: 100px auto;
+  background: white;
+  border-radius: 5px;
+}
+
+input{
+    min-height: 40px;
+    border-width: 2px;
+    border-radius: 3px;
+}
+
+@media only screen and (min-width: 600px) {
+    #search-sub-header{
+        font-size: 1.5em;
+        margin-bottom: 18px;
+    }
+    #search-header{
+        font-size: 2em;
+    }
+    input{
+        
+    min-height: 52px;
+    }
+  }
