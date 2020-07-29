@@ -1,0 +1,13 @@
+.savedContainer{
+    margin-top: 64px;
+}
+
+#saveHeader{
+    font-size: 1.25em;
+    margin: 16px;
+    text-align: center;
+}
+
+.noMargin{
+    margin: 0px;
+}

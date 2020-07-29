@@ -1,10 +1,10 @@
 import React, {useState, useEffect} from "react"
 import Book from "../Book/Book.js"
 import axios from "axios"
+import "./saved.css"
 
 function Saved(){
     const [savedBooksState, setsavedBooksState] = useState()
-
     useEffect( () => {
         axios.get("/api/savedBooks")
         .then(res => {
@@ -29,11 +29,13 @@ function Saved(){
     },[])
     return(
         <div className="row justify-content-center body">
-            <div className="col-11 search-container" >
+            <div className="col-12 savedContainer search-container" >
                 <div className="col-12" id="saveHeader">
                     Saved Books
                 </div>
+                <div className="row justify-content-center">
                 {savedBooksState}
+                </div>
             </div>
         </div>
     )
