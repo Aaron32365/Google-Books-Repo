@@ -42,6 +42,18 @@ function Book(props){
                             {props.description}
                         </div>
                     </div>
+                    {window.location.pathname === "/save"
+                    ?
+                    <Deletebtn 
+                    props={props}
+                    setmsgState={setmsgState}
+                    />
+                    :
+                    <Savebtn 
+                    props={props}
+                    setmsgState={setmsgState}
+                    />
+                }
                 </div>
             </div>
                 {/* <div className="col bookTitle">
