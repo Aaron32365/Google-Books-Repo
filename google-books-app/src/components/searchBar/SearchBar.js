@@ -18,7 +18,6 @@ function SearchBar (props){
                     <button className="col-4" type="submit" id="submitBtn">Search</button>
                     </span>
                 </form>
-                
             </div>
         </div>
     )

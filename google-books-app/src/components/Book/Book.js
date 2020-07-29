@@ -11,22 +11,47 @@ function Book(props){
         message: ""
     })
     return(
-        <div className="row bookContainer">{/*return a <book title={book.volumeInfo.title}> etc.... */}
-                <div className="col-6">
+        <div className="col-10 col-md-8 col-lg-8 col-xl-4 box bookContainer">{/*return a <book title={book.volumeInfo.title}> etc.... */}
+            <div className="row">
+                <div className="col-5">
+                    <div className="col-12 noPadding">
                     <img src={props.img} alt={`Image of ${props.title} book cover`}/>
-                        <a href={props.link} target="_blank" className="col viewLink">View</a>
                         <div  id="msg1">
-                        <MessageHandler message = {msgState.message}/>
+                            <MessageHandler message = {msgState.message}/>
                         </div>
+                        <span className="col">
+                        <a href={props.link} target="_blank" className="viewLink">View</a>
+                        </span>
+                    </div>
                 </div>
-                <div className="col bookTitle">
-                    {JSON.stringify(props.title)}
+                <div className="col-7">
+                    <div className="row justify-content-left bookTitle">
+                        <div className="col">
+                            {props.title}
+                        </div>
+                    </div>
                     <div className="col bookAuthor">
+                        <ul>
+                            {props.authors.map(author => {
+                                return (<li key={author}>{author},</li>)
+                            })}
+                        </ul>
+                    </div>
+                    <div className="row">
+                        <div className="col-12 bookDesc">
+                            {props.description}
+                        </div>
+                    </div>
+                </div>
+            </div>
+                {/* <div className="col bookTitle">
+                    {JSON.stringify(props.title)}
+                    <div className="col bookAuthor"> //
                         By: 
                         <ul>
                         {props.authors.map(author =>{return(<li key={author}>{author},</li>)})}
                         </ul>
-                    </div>
+                    </div> //
                     {window.location.pathname === "/save"
                     ?
                     <Deletebtn 
@@ -42,8 +67,8 @@ function Book(props){
                 </div>
                 <div className="col-12 bookDesc">
                     {props.description}
-                </div>
-            </div>
+                </div> */}
+        </div>
     )
 }
 

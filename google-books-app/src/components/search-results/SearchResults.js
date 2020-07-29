@@ -14,8 +14,7 @@ function SearchResults (props){
         )
     })
     return(
-        <div className="col ">
-            {/* {JSON.stringify(props.bookList)/* use map to return jsx for each booklist item */}
+        <div className="row justify-content-center">
             {BookList}
         </div>
     )

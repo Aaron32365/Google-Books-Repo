@@ -9,7 +9,9 @@ function Results (props){
                 <div className="col-12" id="result-header">
                      Results
                 </div>
-                <SearchResults bookList={props.bookList}/>
+                <div className="col">
+                    <SearchResults bookList={props.bookList}/>
+                </div>
             </div>
         </div>
     )

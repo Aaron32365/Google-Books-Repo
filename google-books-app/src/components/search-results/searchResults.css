@@ -20,8 +20,8 @@
 }
 
 img{
-    width: 134px;
-    height: 196px;
+    width: auto;
+    height: 164px;
     margin: 6px;
     margin-top: 22px;
     border-radius: 2px;
@@ -30,3 +30,25 @@ img{
     border-color: black;
     margin-bottom: 18px;
 }
+
+@media only screen and (min-width: 600px) {
+    img{
+        height: 228px;
+    }
+  }
+
+  @media only screen and (min-width: 1000px) {
+    img{
+        height: 320px;
+    }
+  }
+
+  
+  @media only screen and (min-width: 1199px) {
+    img{
+        height: 180px;
+    }
+    .bookContainer{
+        margin: 50px;
+    }
+  }
