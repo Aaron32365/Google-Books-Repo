@@ -5,7 +5,18 @@ const mongoose = require("mongoose");
 const routes = require("./routes/api-routes.js")
 
 // connect mongoose db (options to remove depracation warnings)
-mongoose.connect(/*process.env.MONGODB_URI || */"mongodb://localhost/googlebooks", {
+
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/googlebooks"
+
+// mongoose.connect(/*process.env.MONGODB_URI || */"mongodb://localhost/googlebooks", {
+//   useNewUrlParser: true,
+//   useUnifiedTopology: true,
+//   useCreateIndex: true,
+//   useFindAndModify: false
+// })
+
+
+mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
