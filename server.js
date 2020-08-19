@@ -34,6 +34,9 @@ app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
 
+
+app.use(express.static(path.join(__dirname, './public')))
+
 // api routes
 app.use(routes);
 
@@ -52,8 +55,6 @@ mongoose_db.on("error", function() {
 
 
 console.log("serverjs running")
-
-app.use(express.static(path.join(__dirname, './public')))
 
 app.get('*', function(_, res) {
   res.sendFile(path.join(__dirname, './public/index.html'), function(err) {
