@@ -27,7 +27,7 @@ const mongoose_db = mongoose.connection;
 
 
 // static assets
-app.use(express.static(path.join(__dirname, "public")));
+// app.use(express.static(path.join(__dirname, "public")));
 
 // middleware for parsing req.body
 app.use(express.json());
@@ -53,10 +53,10 @@ mongoose_db.on("error", function() {
 
 console.log("serverjs running")
 
-app.use(express.static(path.join(__dirname, './client/public')))
+app.use(express.static(path.join(__dirname, './public')))
 
 app.get('*', function(_, res) {
-  res.sendFile(path.join(__dirname, './client/public/index.html'), function(err) {
+  res.sendFile(path.join(__dirname, './public/index.html'), function(err) {
     if (err) {
       res.status(500).send(err)
     }
